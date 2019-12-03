@@ -15,7 +15,7 @@ If you're not well-versed in RHEL-based systems or custom PHP versions, here's a
     * `$ wget https://github.com/phalcon/cphalcon/archive/v3.4.5.tar.gz`
     * `$ tar xvzf v3.4.5.tar.gz`
     * `$ cd cphalcon-3.4.5/build/`
-3. You now need to localize the phpize and php-config files of the kusanagi PHP package:
+3. You now need to locate the phpize and php-config files of the kusanagi PHP package:
     * `$ repoquery --list kusanagi-php7 | grep -E '(php-config|phpize)$'`
         * [ ] `/usr/local/php7/bin/php-config`
         * [ ] `/usr/local/php7/bin/phpize`
@@ -34,3 +34,7 @@ If you're not well-versed in RHEL-based systems or custom PHP versions, here's a
 ## 日本語
 
 (translation welcome, given that KUSANAGI is mostly used in Japan)
+
+
+## Licence
+Document under The Unlicense, so do what you want with it.
