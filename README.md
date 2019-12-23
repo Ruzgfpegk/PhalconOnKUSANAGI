@@ -1,10 +1,10 @@
-# Phalcon on KUSANAGI
-Short tutorial to build the Phalcon PHP Framework on a KUSANAGI-powered VPS.
+# Phalcon 3 on KUSANAGI
+Short tutorial to build the Phalcon PHP Framework (v3) on a KUSANAGI-powered VPS.
 
 ## English
 KUSANAGI provides a CentOS repository for its PHP versions, which are more up-to-date than the base CentOS ones.
 
-To compile Phalcon (or any other module) on it, you need to use KUSANAGI's installed version of PHP, which thankfully include the libraries.
+To compile Phalcon 3 (or any other module) on it, you need to use KUSANAGI's installed version of PHP, which thankfully include the libraries.
 
 If you're not well-versed in RHEL-based systems or custom PHP versions, here's a quick guide.
 
@@ -29,6 +29,7 @@ If you're not well-versed in RHEL-based systems or custom PHP versions, here's a
 
 8. And it's done! You can always call phpinfo() to check.
 
+Regarding Phalcon 4, instructions may differ a bit.
 
 
 ## 日本語
