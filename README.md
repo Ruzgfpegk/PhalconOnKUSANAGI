@@ -1,5 +1,5 @@
 # Phalcon on KUSANAGI
-Short tutorial on how to build the Phalcon PHP Framework (v3/v4) on a KUSANAGI-powered VPS.
+Short tutorial on how to build the Phalcon PHP Framework (v3/v4) on a [KUSANAGI](https://en.kusanagi.tokyo/document/)-powered VPS (Prime Strategy repository on top of CentOS).
 
 ## English
 KUSANAGI provides a CentOS repository for its PHP versions, which are more up-to-date than the base CentOS ones.
