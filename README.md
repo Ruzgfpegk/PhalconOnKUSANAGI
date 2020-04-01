@@ -22,7 +22,7 @@ instructions of each package.
     * `$ sudo yum install gcc libtool pcre-devel`
 2. Get the source code tarball URL for the wished Phalcon [release](https://github.com/phalcon/cphalcon/releases),
    for instance [v3.4.5](https://github.com/phalcon/cphalcon/releases/tag/v3.4.5)
-   or [v4.0.0](https://github.com/phalcon/cphalcon/releases/tag/v4.0.0).
+   or [v4.0.5](https://github.com/phalcon/cphalcon/releases/tag/v4.0.5).
 3. On the server, download/uncompress the relevant Phalcon file and go in its build folder:
     * `$ wget https://github.com/phalcon/cphalcon/archive/v3.4.5.tar.gz`
     * `$ tar xvzf v3.4.5.tar.gz`
@@ -38,11 +38,11 @@ instructions of each package.
     * `# echo 'extension=phalcon.so' > /etc/php7.d/extensions/50-phalcon.ini`
     * `# systemctl restart php7-fpm.service`
 7. If using Phalcon 4, you'll also have to download/compile/install the latest [PHP-PSR](https://github.com/jbboehr/php-psr),
-   [v0.7.0](https://github.com/jbboehr/php-psr/releases/tag/v0.7.0) as of now, using a similar method.
+   [v1.0.0](https://github.com/jbboehr/php-psr/releases/tag/v1.0.0) as of now, using a similar method.
     1. On the server, download/uncompress the relevant PHP-PSR file and go in its build folder:
-       * `$ wget wget https://github.com/jbboehr/php-psr/archive/v0.7.0.tar.gz`
-       * `$ tar xvzf v0.7.0.tar.gz`
-       * `$ cd php-psr-0.7.0/`
+       * `$ wget https://github.com/jbboehr/php-psr/archive/v1.0.0.tar.gz`
+       * `$ tar xvzf v1.0.0.tar.gz`
+       * `$ cd php-psr-1.0.0/`
     2. Compile and install using the phpize and php-config paths from step 3:
        * `$ /usr/local/php7/bin/phpize`
        * `$ ./configure --with-php-config=/usr/local/php7/bin/php-config`
